@@ -1,0 +1,36 @@
+/* styles.css */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: #FF0000;
+  color: #fff;
+  width: 25vw; /* 25% của viewport width */
+  height: 100vh; /* 100% của viewport height */
+  padding: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
